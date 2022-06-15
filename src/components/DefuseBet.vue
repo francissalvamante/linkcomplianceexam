@@ -47,7 +47,7 @@ export default Vue.extend({
     return {
       multiplier: [1.5, 2.0, 5.0],
       defuseValue: 1,
-      innerWidth: 0,
+      innerWidth: window.innerWidth,
     };
   },
   props: {
