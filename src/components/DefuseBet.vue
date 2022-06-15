@@ -73,7 +73,6 @@ export default Vue.extend({
       this.defuseValue *= multiplier;
     },
     resizeHandler(e) {
-      console.log(e);
       this.innerWidth = e.currentTarget.innerWidth;
     },
   },
