@@ -49,7 +49,7 @@ export default Vue.extend({
   data() {
     return {
       bet: 10,
-      betValueRange: [5, 10, 50, 100, 500],
+      betValueRange: [5, 10, 50, 100, 500, 1000],
     };
   },
   props: {
